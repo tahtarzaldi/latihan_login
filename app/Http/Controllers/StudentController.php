@@ -13,7 +13,8 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return view('home');
+
+        return view('student.index');
     }
 
     /**
@@ -23,7 +24,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-        return view('students.create');
+        //
     }
 
     /**
